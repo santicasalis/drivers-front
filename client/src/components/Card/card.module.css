@@ -1,0 +1,51 @@
+.cardContainer {
+  width: 350px;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 2rem 1rem;
+  background-image: linear-gradient(
+    to right,
+    #f47278,
+    #c86468,
+    #da787b66,
+    #d17378
+  );
+
+  border-radius: 50px;
+  &:hover {
+    transform: scale(1.1);
+  }
+}
+
+.cardImg {
+  border-radius: 20%;
+  width: 150px;
+  height: 200px;
+  object-fit: cover;
+  overflow: hidden;
+}
+.link {
+  text-decoration: none;
+}
+.teamList {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  list-style: none;
+}
+
+.teamLi {
+  font-family: "Playpen Sans", sans-serif;
+  color: aliceblue;
+  font-weight: bold;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-bottom: 10px;
+}
+
+.cardContainer h1 {
+  font-family: "Titillium Web", sans-serif;
+  color: aliceblue;
+}

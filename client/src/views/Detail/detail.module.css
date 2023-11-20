@@ -1,0 +1,60 @@
+.detailContainer {
+  margin-top: 70px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-image: url(../../assets/W14.jpg);
+  background-size: cover;
+  background-position: center center;
+  height: 100vh;
+}
+
+.detailContainerData {
+  display: flex;
+  width: 90%;
+  align-items: center;
+  justify-content: center;
+}
+.detailContainerData img {
+  width: 330px;
+  height: 493px;
+  object-fit: cover;
+}
+
+.detailData {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  height: 100%;
+}
+.detailData div {
+  margin: 0.5rem 2rem;
+  font-family: "Playpen Sans", sans-serif;
+}
+
+.detailContainer h2 {
+  font-family: "Titillium Web", sans-serif;
+  color: aliceblue;
+  font-weight: bold;
+  font-size: xx-large;
+  letter-spacing: 2px;
+}
+.teamList {
+  display: flex;
+
+  justify-content: center;
+
+  list-style: none;
+}
+.teamList li {
+  margin: 1rem;
+}
+
+.infoExtra {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
